@@ -7,4 +7,12 @@ This project investigates how well three foundational stochastic models Geometri
 
 Our goal was not just to simulate models, but to stress-test their assumptions against actual market data, revealing where they succeed, where they fail, and why calibration is essential in quantitative finance.
 
+## Key Findings
+
+- Real returns exhibit fat tails and volatility clustering, violating normality assumptions
+- GBM fails structurally due to constant volatility and Gaussian returns
+- Heston captures volatility clustering but requires calibration to avoid distortion
+- Merton introduces jumps but is highly sensitive to jump intensity
+- Model calibration is essential — structure alone is insufficient
+
 This project is licensed under the MIT License.
